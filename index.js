@@ -18,5 +18,5 @@ else if(randomNum1<randomNum2){
   document.querySelector("h1").innerHTML="Player 2 Wins ! Refresh to play";
 }
 else {
-  document.querySelector("h1").innerHTML="Draw!";
+  document.querySelector("h1").innerHTML="Draw! Refresh to play";
 }
