@@ -12,10 +12,10 @@ var img2 = document.querySelectorAll("img")[1];//will select image 2
 img2.setAttribute("src",randomDiceImage2);
 
 if(randomNum1>randomNum2){
-  document.querySelector("h1").innerHTML="Player 1 Wins !";
+  document.querySelector("h1").innerHTML="Player 1 Wins ! Refresh to play";
 }
 else if(randomNum1<randomNum2){
-  document.querySelector("h1").innerHTML="Player 2 Wins !";
+  document.querySelector("h1").innerHTML="Player 2 Wins ! Refresh to play";
 }
 else {
   document.querySelector("h1").innerHTML="Draw!";
